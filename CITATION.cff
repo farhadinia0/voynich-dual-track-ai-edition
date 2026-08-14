@@ -1,0 +1,16 @@
+cff-version: 1.2.0
+message: "If you use this pilot, please cite it, identify the AI system as OpenAI Codex - GPT-5.6 Sol (max reasoning), and clearly distinguish the analytical edition from the speculative reconstruction."
+title: "Voynich Dual-Track AI Edition: 12-Folio Pilot"
+type: dataset
+authors:
+  - name: "Voynich Dual-Track AI Edition contributors"
+version: 0.1.0
+date-released: 2026-08-14
+abstract: "An auditable 12-folio pilot pairing nonsemantic EVA structural analysis with a separately labeled deterministic creative English reconstruction."
+keywords:
+  - Voynich Manuscript
+  - EVA
+  - IVTFF
+  - computational humanities
+  - AI transparency
+license: CC-BY-4.0

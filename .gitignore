@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.DS_Store
+.venv/
+venv/
+sources/ZL3b-n.txt
+rendered/
+tmp/
+~$*.docx
+
