@@ -1,0 +1,397 @@
+{
+  "ruleset_version": "pilot-0.1.0",
+  "created": "14 August 2026",
+  "selected_folios": [
+    "f1r",
+    "f3r",
+    "f31r",
+    "f67r1",
+    "f70r2",
+    "f70v2",
+    "f75r",
+    "fRos",
+    "f88r",
+    "f99r",
+    "f103r",
+    "f116r"
+  ],
+  "image_page_map": {
+    "f1r": "page-003.jpg",
+    "f3r": "page-007.jpg",
+    "f31r": "page-061.jpg",
+    "f67r1": "page-121.jpg",
+    "f70r2": "page-127.jpg",
+    "f70v2": "page-128.jpg",
+    "f75r": "page-135.jpg",
+    "fRos": "page-158.jpg",
+    "f88r": "page-161.jpg",
+    "f99r": "page-181.jpg",
+    "f103r": "page-183.jpg",
+    "f116r": "page-205.jpg"
+  },
+  "page_context": {
+    "f1r": "A text-dominant opening folio with later marginal additions and the historical Tepenec signature. It is used as a control because illustration-led semantics are unavailable.",
+    "f3r": "A herbal folio with a single large plant. A historical annotation proposes a Cretan-dittany-like identification, but the plant identification is not secure.",
+    "f31r": "A herbal folio in Currier language B and a different scribal hand from f3r, useful for testing whether rules survive a corpus shift.",
+    "f67r1": "An astronomical foldout surface dominated by lunar imagery, concentric circles, radial structure, and circular writing.",
+    "f70r2": "A cosmological diagram with a central face, rings of text, and eight surrounding lozenge-like forms.",
+    "f70v2": "A zodiac page centered on the paired fish associated with Pisces, surrounded by rings of figures, stars, and labels.",
+    "f75r": "A biological or balneological page with two pool-like forms and fourteen human figures, conventionally called nymphs.",
+    "fRos": "The large nine-rosette foldout: interconnected medallions, paths, towers, circular writing, and numerous labels.",
+    "f88r": "A pharmaceutical page with rows of roots or plant parts, short labels, and paragraph blocks.",
+    "f99r": "A pharmaceutical inventory-like page with containers, plant fragments, and many short labels.",
+    "f103r": "The opening of the star-marked text section, arranged as compact entries with a seven-pointed star marker.",
+    "f116r": "A late star-marked text page near the end of the manuscript; included to test whether the same rule set reaches the corpus boundary."
+  },
+  "lexicons": {
+    "T": {
+      "verb": [
+        "Record",
+        "Compare",
+        "Preserve",
+        "Mark",
+        "Repeat",
+        "Separate",
+        "Join",
+        "Set down"
+      ],
+      "object": [
+        "the first account",
+        "the measured portion",
+        "the named substance",
+        "the adjoining entry",
+        "the principal sign",
+        "the prepared matter"
+      ],
+      "context": [
+        "beside the earlier note",
+        "after the second measure",
+        "under the same sign",
+        "before the final division",
+        "with the remaining portion",
+        "in the appointed order"
+      ],
+      "close": [
+        "keep the sequence unchanged",
+        "return to the opening mark",
+        "leave the final quantity apart",
+        "compare it with the following entry",
+        "retain only the clear portion"
+      ]
+    },
+    "H": {
+      "verb": [
+        "Gather",
+        "Cut",
+        "Bruise",
+        "Dry",
+        "Steep",
+        "Boil",
+        "Strain",
+        "Grind"
+      ],
+      "object": [
+        "root",
+        "young leaves",
+        "flowering stem",
+        "seed",
+        "outer bark",
+        "fresh shoots",
+        "whole herb"
+      ],
+      "modifier": [
+        "pale",
+        "bitter",
+        "mature",
+        "tender",
+        "aromatic",
+        "red-veined",
+        "freshly cut"
+      ],
+      "medium": [
+        "spring water",
+        "wine",
+        "warm oil",
+        "vinegar",
+        "honey",
+        "clear water"
+      ],
+      "condition": [
+        "until the colour deepens",
+        "in the shade",
+        "over a gentle heat",
+        "before sunrise",
+        "for one measured interval",
+        "until the liquid clears"
+      ],
+      "purpose": [
+        "for a warming preparation",
+        "for a cooling preparation",
+        "for external use",
+        "as the first ingredient",
+        "for storage in a sealed vessel"
+      ]
+    },
+    "A": {
+      "verb": [
+        "Observe",
+        "Mark",
+        "Count",
+        "Follow",
+        "Compare",
+        "Measure"
+      ],
+      "object": [
+        "the moon's course",
+        "the outer ring",
+        "the returning star",
+        "the central light",
+        "the northern arc",
+        "the interval between signs"
+      ],
+      "ring": [
+        "the first circle",
+        "the divided band",
+        "the inner course",
+        "the outermost circuit",
+        "the eastern arc"
+      ],
+      "marker": [
+        "the pale star",
+        "the opposing point",
+        "the marked division",
+        "the lower crossing",
+        "the returning sign"
+      ],
+      "time": [
+        "before dawn",
+        "at the month's turning",
+        "after the third interval",
+        "when the light increases",
+        "at the closing of the cycle"
+      ]
+    },
+    "Z": {
+      "verb": [
+        "mark",
+        "assign",
+        "observe",
+        "number",
+        "place",
+        "compare"
+      ],
+      "sign": [
+        "the paired fish",
+        "the turning sign",
+        "the watery house",
+        "the double emblem",
+        "the month's threshold"
+      ],
+      "station": [
+        "the first station",
+        "the outer degree",
+        "the western position",
+        "the returning place",
+        "the lower division"
+      ],
+      "bearer": [
+        "the star-bearer",
+        "the standing figure",
+        "the vessel-bearer",
+        "the attendant",
+        "the named figure"
+      ],
+      "marker": [
+        "the blue star",
+        "the outer barrel",
+        "the next division",
+        "the inner ring",
+        "the eastern point"
+      ]
+    },
+    "B": {
+      "verb": [
+        "Warm",
+        "Pour",
+        "Draw",
+        "Circulate",
+        "Cool",
+        "Collect"
+      ],
+      "liquid": [
+        "the green water",
+        "the prepared bath",
+        "the flowing infusion",
+        "the clear liquor",
+        "the heated water"
+      ],
+      "vessel": [
+        "the upper basin",
+        "the joined vessel",
+        "the lower pool",
+        "the narrow channel",
+        "the covered bath"
+      ],
+      "subject": [
+        "the bather",
+        "the patient",
+        "the first figure",
+        "the seated woman",
+        "the attendant"
+      ],
+      "duration": [
+        "for one interval",
+        "until the water cools",
+        "through the second measure",
+        "while the flow remains steady",
+        "until the sign changes"
+      ],
+      "finish": [
+        "rinse with clear water",
+        "move to the lower basin",
+        "rest before repeating",
+        "close the channel",
+        "retain the remaining liquid"
+      ]
+    },
+    "C": {
+      "verb": [
+        "trace",
+        "carry",
+        "join",
+        "measure",
+        "follow",
+        "turn"
+      ],
+      "center": [
+        "the central enclosure",
+        "the inner rosette",
+        "the marked face",
+        "the middle gate",
+        "the enclosed field"
+      ],
+      "path": [
+        "the narrow road",
+        "the divided channel",
+        "the outer circuit",
+        "the bridged passage",
+        "the spiral course"
+      ],
+      "region": [
+        "the eastern tower",
+        "the lower field",
+        "the western circle",
+        "the northern rosette",
+        "the outer wall"
+      ],
+      "ring": [
+        "the first ring",
+        "the encircling band",
+        "the eightfold division",
+        "the outer medallion",
+        "the returning path"
+      ],
+      "relation": [
+        "at the marked opening",
+        "without crossing the inner band",
+        "through the narrow gate",
+        "beside the repeated sign",
+        "at the final division"
+      ]
+    },
+    "P": {
+      "verb": [
+        "Cut",
+        "Dry",
+        "Grind",
+        "Steep",
+        "Store",
+        "Mix",
+        "Separate",
+        "Bind"
+      ],
+      "part": [
+        "the root",
+        "the leaf",
+        "the flower head",
+        "the peeled stem",
+        "the seed cluster",
+        "the powdered bark"
+      ],
+      "ingredient": [
+        "the bitter herb",
+        "the red-rooted plant",
+        "the aromatic plant",
+        "the broad-leaved herb",
+        "the dried fragment"
+      ],
+      "medium": [
+        "wine",
+        "warm oil",
+        "honey",
+        "vinegar",
+        "clear water",
+        "salted water"
+      ],
+      "container": [
+        "the tall jar",
+        "the covered vessel",
+        "the narrow-necked pot",
+        "the second container",
+        "the sealed flask"
+      ],
+      "storage": [
+        "until needed",
+        "away from direct heat",
+        "for one complete cycle",
+        "under a tight cover",
+        "after the moisture has gone"
+      ]
+    },
+    "S": {
+      "verb": [
+        "grind",
+        "steep",
+        "boil",
+        "strain",
+        "mix",
+        "warm",
+        "apply"
+      ],
+      "condition": [
+        "a recurring fever",
+        "pain after exertion",
+        "a cold swelling",
+        "restless sleep",
+        "a dry cough",
+        "weak digestion",
+        "an aching limb"
+      ],
+      "ingredient": [
+        "the prepared root",
+        "the dried leaves",
+        "the bitter seed",
+        "the aromatic powder",
+        "the clarified resin",
+        "the flower infusion"
+      ],
+      "medium": [
+        "warm water",
+        "light wine",
+        "honey",
+        "oil",
+        "vinegar",
+        "a clear broth"
+      ],
+      "time": [
+        "before sleep",
+        "at dawn",
+        "after food",
+        "for three measured days",
+        "while still warm",
+        "once in the evening"
+      ]
+    }
+  },
+  "warning": "The speculative lexicons are deterministic creative devices. They are not decoded Voynich vocabulary."
+}

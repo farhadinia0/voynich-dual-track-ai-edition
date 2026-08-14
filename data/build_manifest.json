@@ -1,0 +1,41 @@
+{
+  "project": "Voynich Dual-Track AI Edition",
+  "ruleset": "pilot-0.1.0",
+  "generated": "14 August 2026",
+  "source_file": "ZL3b-n.txt",
+  "source_sha256": "bf5b6d4ac1e3a51b1847a9c388318d609020441ccd56984c901c32b09beccafc",
+  "selected_folios": [
+    "f1r",
+    "f3r",
+    "f31r",
+    "f67r1",
+    "f70r2",
+    "f70v2",
+    "f75r",
+    "fRos",
+    "f88r",
+    "f99r",
+    "f103r",
+    "f116r"
+  ],
+  "pilot_loci": 535,
+  "pilot_tokens": 3380,
+  "folio_loci": {
+    "f1r": 28,
+    "f3r": 20,
+    "f31r": 16,
+    "f67r1": 19,
+    "f70r2": 19,
+    "f70v2": 33,
+    "f75r": 53,
+    "fRos": 160,
+    "f88r": 31,
+    "f99r": 52,
+    "f103r": 54,
+    "f116r": 50
+  },
+  "ai_system": "OpenAI Codex",
+  "ai_model": "GPT-5.6 Sol",
+  "reasoning_effort": "max",
+  "disclaimer": "The analytical edition contains no semantic decipherment. The speculative edition is creative reconstruction only."
+}
